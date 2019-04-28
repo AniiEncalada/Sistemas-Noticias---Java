@@ -1,0 +1,212 @@
+@import url(fonts.css);
+
+body{
+    font-family: 'Roboto', sans-serif;    
+}
+
+.btn{
+    font-size: 14px;
+}
+
+a, a:hover, a:focus, a:active, a:visited{
+    text-decoration: none;
+    box-shadow: none !important;
+}
+
+.hidden{
+    display: none;
+}
+
+.btn-primary{
+    background-color: #5b9b2e;
+    border-color: #5b9b2e;
+    border-radius: 20px;
+}
+
+.btn-primary:hover{
+    background-color: #fff;
+    border-color: #fff;
+    color: #5b9b2e;
+}
+
+.btn-primary:active, .btn-primary:focus{
+    background-color: #e7e7e7 !important;
+    border-color: #e7e7e7 !important;
+    color: #5b9b2e !important;
+}
+
+.btn-primary.focus, .btn-primary:focus{
+    box-shadow: 0 0 0 0.2rem rgba(93,162,44,.5) !important;
+}
+
+.btn > i{
+    margin-right: 10px;
+}
+
+header{
+    padding: 25px 0;
+    background-color: #6fc035;
+}
+nav ul li:first-child{
+    color: #fff;
+    font-weight: 700;
+    margin-right: 25px !important;
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+nav a:hover{
+    color: #e7e7e7;
+}
+
+.login-box .btn-primary{
+    padding: 10px 20px;
+}
+.login-box h5{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #6fc035;
+}
+.login-box p{
+    color: #969696;
+    font-size: 12px;
+}
+.login-box .dropdown-menu{
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+}
+.login-box form .form-control{
+    font-size: 14px;
+}
+.login-box form .form-control:focus{
+    border-color: #5b9b2e;
+    box-shadow: 0 0 0 0.2rem rgba(93,162,44,.5);
+}
+.login-box form .btn{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #83d14a;
+    border: none;
+    padding: 8px 0;
+}
+
+#main-content{
+    margin-top: -45px;
+}
+.add-news-box{
+    padding: 25px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin-bottom: 30px;
+}
+#search_form{
+    margin-bottom: 35px;
+}
+#search_form .form-control{
+    background-color: transparent;
+    border-color: #fff;
+    border-width: 0 0 1px 0;
+    border-radius: 0;
+    opacity: 0.5;
+    font-size: 14px;
+    height: auto;
+    color: #fff;
+    padding-left: 15px;
+}
+#search_form .form-control:focus{
+    opacity: 1;
+    box-shadow: none;
+}
+.add-news-box h4{
+    color: #fff;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.add-news-box .form-control{
+    background-color: transparent;
+    border-color: #fff;
+    font-size: 14px;
+    border-radius: 15px;
+    color: #fff;
+    padding-left: 15px;
+}
+
+.add-news-box .form-control:focus{
+    box-shadow: none;
+}
+
+#search_form button[type="reset"],  
+.add-news-box .btn-info{
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 15px;
+}
+
+#search_form .form-control::-webkit-input-placeholder,
+.add-news-box .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #fff;
+}
+#search_form .form-control::-moz-placeholder,
+.add-news-box .form-control::-moz-placeholder { /* Firefox 19+ */
+color: #fff;
+}
+#search_form .form-control:-ms-input-placeholder,
+.add-news-box .form-control:-ms-input-placeholder { /* IE 10+ */
+color: #fff;
+}
+#search_form .form-control:-moz-placeholder,
+.add-news-box .form-control:-moz-placeholder { /* Firefox 18- */
+color: #fff;
+}
+
+.table-news thead tr th{
+    background-color: #5b9b2e;
+    border: none;
+    color: #fff;
+    padding-left: 20px;
+    font-size: 14px;
+    font-weight: 300px;
+    text-transform: uppercase;
+
+}
+.table-news tbody tr td{
+    vertical-align: middle;
+    padding-left: 20px;
+}
+.table-news thead tr th:first-child{
+    border-top-left-radius: 10px;
+}
+.table-news thead tr th:last-child{
+    border-top-right-radius: 10px;
+}
+.table-news tbody tr:nth-of-type(odd){
+    background-color: #d6f9bc;
+}
+.table-news tbody tr td:first-child{
+    width: 100px;
+}
+.table-news tbody tr td:last-child{
+    width: 250px;
+}
+
+.table-news tbody tr td:last-child .btn:not(:last-child){
+    margin-right: 5px;
+}
+
+#alert_msg{
+    position: fixed;
+    left: 20px;
+    bottom: 10px;
+    max-width: 400px;;
+}
+#alert_msg button{
+    margin-left: 15px;
+}
